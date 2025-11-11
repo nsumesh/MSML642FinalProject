@@ -7,7 +7,6 @@
 ## Quick Start
 
 ```bash
-# Clone and enter
 git clone git@github.com:nsumesh/MSML_642_FinalProject.git
 cd MSML_642_FinalProject
 
