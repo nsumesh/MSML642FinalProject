@@ -55,7 +55,7 @@ pkill -9 auto_explore 2>/dev/null || true
 ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z: 0.0}}"
 
 # Launch RViz for visualization (optional)
-echo "📡 Launching RViz..."
+echo "Launching RViz..."
 ros2 launch nav2_bringup rviz_launch.py &
 RVIZ_PID=$!
 
